@@ -23,7 +23,6 @@ textarea {
 .navBar {
     display: flex;
     align-items: center;
-    height: 60px;
     color: white;
     background-color: #4d98a3;
 
@@ -103,11 +102,14 @@ textarea {
 
 .icons {
     display: flex;
+    justify-content: center;
+    margin-left: 15%;
+    margin-right: 15%;
 }
 .icon {
     height: 150px;
     width: 150px;
-    margin: 20px 50px 20px;  
+    /* margin: 20px 5% 20px;   */
 }
 
 .cart {
@@ -217,3 +219,22 @@ textarea {
     align-items: center;
 }
 
+
+
+/* MEDIA QUERIES */
+
+@media only screen and (max-width: 768px) {
+    .icons {
+        flex-direction: column;
+    }
+    .navBar {
+        flex-direction: column;
+    }
+    .buttons {
+        flex-direction: column;
+        text-align: center;
+    }
+    .separator {
+        display: none;
+    }
+}
