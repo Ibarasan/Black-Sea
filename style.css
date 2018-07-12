@@ -1,0 +1,219 @@
+body {
+    margin: 0;
+    font-family: 'Lato', sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+textarea {
+    resize: none;
+    outline: none;
+    height: auto;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+/* NAVBAR SECTION */
+.navBar {
+    display: flex;
+    align-items: center;
+    height: 60px;
+    color: white;
+    background-color: #4d98a3;
+
+}
+
+.logo {
+    text-align: center;
+    font-size: 30px;
+    margin: 20px;
+    width: 50%;
+}
+
+.buttons {
+    display: flex;
+    width: 50%;
+}
+
+.btn {
+    margin: 20px;
+}
+
+
+
+/* HERO SECTION */
+
+.hero {
+    background: url("public/img/hero.png");
+    background-position: 50% 30%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 700px;
+
+}
+
+.heroTitle {
+    color: white;
+    font-size: 50px;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+.heroButton {
+    padding: 20px;
+    border: 2px solid white;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+    width: 200px;
+    font-size: 22px;
+}
+
+/* CONTENT SECTION */
+
+.content {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    background: white;
+    padding-left: 15%;
+    padding-right: 15%;
+}
+
+.contentTitle {
+    margin-top: 100px;
+}
+
+.aboutDescription {
+    font-size: 20px;
+}
+
+.icons {
+    display: flex;
+}
+.icon {
+    height: 150px;
+    width: 150px;
+    margin: 20px 50px 20px;  
+}
+
+.cart {
+    background: url("public/img/koszyk.png");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.globe {
+    background: url("public/img/planeta.png");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.briefcase {
+    background: url("public/img/teczka.png");
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+
+
+/* ABOUT SECTION */
+
+.about {
+    display: flex;
+    flex-direction: column;
+    background: #00d089;
+    color: white;
+    text-align: center;
+    align-items: center;
+    padding-top: 50px;
+    padding-bottom: 80px;
+    padding-left: 15%;
+    padding-right: 15%;
+}
+
+.photo {
+    background: url("public/img/photo.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 200px;
+    width: 200px;
+}
+
+
+
+
+
+/* MAP SECTION */
+
+.map {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url("public/img/map.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.form {
+    display: block;
+    position: relative;
+    margin-top: 50px;
+    background: rgba(255, 255, 255, 0.85);
+    border-radius: 50%;
+    border: 2px solid rgb(82, 82, 82, 0.1);
+    height: 500px;
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.inputs {
+    margin-bottom: 10px;
+    padding: 10px;
+    width: 60%;
+}
+
+
+
+.submitBtn {
+    background: url("public/img/submit.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    position: absolute;
+    top: 360;
+    border: 0;
+    height: 100px;
+    width: 100px;
+    margin-top: 30px;
+}
+
+
+/* FOOTER SECTION */
+
+.footer {
+    display: flex;
+    background: #00d089;
+    height: 50px;
+    color: white;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
